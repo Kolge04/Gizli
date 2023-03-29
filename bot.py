@@ -6,12 +6,12 @@ import os
 
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = os.environ.get("TOKEN", None)
+TOKEN = "6224251317:AAEuuEI91R2CvPlMln2qbPgEQDCYhdSP__8"
 
 bot = TelegramClient(
         "Whisper",
-        api_id=6,
-        api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e"
+        api_id=15954332,
+        api_hash="85adea6f1eaf068b707703b4846a9ced"
         ).start(
                 bot_token=TOKEN
                 )
